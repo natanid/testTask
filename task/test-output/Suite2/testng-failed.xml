@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite2]">
+  <parameter name="baseurl" value="https://www.avanade.com/"/>
+  <parameter name="browserName" value="chrome"/>
+  <test thread-count="5" name="Test3(failed)">
+    <parameter name="number" value="2"/>
+    <classes>
+      <class name="com.avanade.test.task.tests.SearchResultsDenmarkTest">
+        <methods>
+          <include name="checkDenmarkResults"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.avanade.test.task.tests.SearchResultsDenmarkTest -->
+      <class name="com.avanade.test.task.tests.SearchResultsCanadaTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkCanadaResults"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.avanade.test.task.tests.SearchResultsCanadaTest -->
+      <class name="com.avanade.test.task.tests.SearchResultsUnitedStatesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="checkUnitedStatesResults"/>
+        </methods>
+      </class> <!-- com.avanade.test.task.tests.SearchResultsUnitedStatesTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

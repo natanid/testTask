@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite2" duration-ms="110099" started-at="2018-12-02T20:18:18Z" finished-at="2018-12-02T20:20:08Z">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="110099" started-at="2018-12-02T20:18:18Z" finished-at="2018-12-02T20:20:08Z">
+      <class name="com.avanade.test.task.tests.SearchResultsDenmarkTest">
+        <test-method status="PASS" signature="checkDenmarkResults()[pri:0, instance:com.avanade.test.task.tests.SearchResultsDenmarkTest@1195bc3]" name="checkDenmarkResults" duration-ms="34026" started-at="2018-12-02T20:18:52Z" finished-at="2018-12-02T20:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDenmarkResults -->
+      </class> <!-- com.avanade.test.task.tests.SearchResultsDenmarkTest -->
+      <class name="com.avanade.test.task.tests.SearchResultsUnitedStatesTest">
+        <test-method status="PASS" signature="checkUnitedStatesResults()[pri:0, instance:com.avanade.test.task.tests.SearchResultsUnitedStatesTest@1e2adc7]" name="checkUnitedStatesResults" duration-ms="41719" started-at="2018-12-02T20:19:26Z" finished-at="2018-12-02T20:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUnitedStatesResults -->
+      </class> <!-- com.avanade.test.task.tests.SearchResultsUnitedStatesTest -->
+      <class name="com.avanade.test.task.tests.SearchResultsCanadaTest">
+        <test-method status="PASS" signature="checkCanadaResults()[pri:0, instance:com.avanade.test.task.tests.SearchResultsCanadaTest@173f6d9]" name="checkCanadaResults" duration-ms="34278" started-at="2018-12-02T20:18:18Z" finished-at="2018-12-02T20:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCanadaResults -->
+      </class> <!-- com.avanade.test.task.tests.SearchResultsCanadaTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite2 -->
+</testng-results>
